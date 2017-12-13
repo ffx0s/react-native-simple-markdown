@@ -89,11 +89,10 @@ export default (styles) => ({
   },
   inlineCode: {
     react: (node, output, state) => {
-      state.withinText = true
       return createElement(Text, {
         key: state.key,
         style: styles.inlineCode
-      }, node.content, state)
+      }, node.content)
     }
   },
   link: {
