@@ -16,7 +16,7 @@ const styles = {
     fontWeight: '500',
   },
   del: {
-    containerBackgroundColor: '#222222',
+    // containerBackgroundColor: '#222222',
   },
   em: {
     fontStyle: 'italic',
